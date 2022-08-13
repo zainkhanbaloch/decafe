@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "cross-env TAILWIND_MODE=watch vite",
     "build": "cross-env TAILWIND_MODE=build vite build",
-    "serve": "vite preview"
+    "serve": "vite"
   },
   "devDependencies": {
     "prettier": "^2.5.1",
