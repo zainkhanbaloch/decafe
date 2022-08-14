@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bg-main": "url('./src/img/bg.jpg')",
+        "bg-main": "url('./src/img/carousel-2.jpg')",
        
       },
     },

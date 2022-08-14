@@ -5,3 +5,82 @@
 a {
   @apply text-blue-500 hover:text-blue-400 hover:underline transition-all;
 }
+
+.spacer{
+
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.layer1{
+  background-image: url('./assets/u-waves.svg');
+}
+
+.layer2{
+  background-image: url('./assets/d-waves.svg');
+}
+
+.custom-shape-divider-top-1660464712 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1660464712 svg {
+    position: relative;
+    display: block;
+    width: calc(106% + 1.3px);
+    height: 96px;
+}
+
+.custom-shape-divider-top-1660464712 .shape-fill {
+    fill: #c82ff7c4;
+}
+
+
+.custom-shape-divider-bottom-1660465076 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1660465076 svg {
+    position: relative;
+    display: block;
+    width: calc(165% + 1.3px);
+    height: 66px;
+}
+
+.custom-shape-divider-bottom-1660465076 .shape-fill {
+    fill: #d11af5;
+}
+
+.custom-shape-divider-top-1660465810 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1660465810 svg {
+    position: relative;
+    display: block;
+    width: calc(165% + 1.3px);
+    height: 66px;
+}
+
+.custom-shape-divider-top-1660465810 .shape-fill {
+    fill: #d11af5;
+}
